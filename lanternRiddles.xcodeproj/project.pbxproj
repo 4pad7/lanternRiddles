@@ -11,6 +11,8 @@
 		494DB4BA25EF85BC00EB030F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494DB4B925EF85BC00EB030F /* ContentView.swift */; };
 		494DB4BC25EF85BF00EB030F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 494DB4BB25EF85BF00EB030F /* Assets.xcassets */; };
 		494DB4BF25EF85BF00EB030F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 494DB4BE25EF85BF00EB030F /* Preview Assets.xcassets */; };
+		494DB4C825EFAD6B00EB030F /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494DB4C725EFAD6B00EB030F /* GameView.swift */; };
+		494DB4CB25EFAFAE00EB030F /* Riddle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494DB4CA25EFAFAE00EB030F /* Riddle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		494DB4BB25EF85BF00EB030F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		494DB4BE25EF85BF00EB030F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		494DB4C025EF85BF00EB030F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		494DB4C725EFAD6B00EB030F /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		494DB4CA25EFAFAE00EB030F /* Riddle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Riddle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				494DB4B725EF85BC00EB030F /* lanternRiddlesApp.swift */,
 				494DB4B925EF85BC00EB030F /* ContentView.swift */,
+				494DB4C725EFAD6B00EB030F /* GameView.swift */,
+				494DB4CA25EFAFAE00EB030F /* Riddle.swift */,
 				494DB4BB25EF85BF00EB030F /* Assets.xcassets */,
 				494DB4C025EF85BF00EB030F /* Info.plist */,
 				494DB4BD25EF85BF00EB030F /* Preview Content */,
@@ -139,7 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				494DB4BA25EF85BC00EB030F /* ContentView.swift in Sources */,
+				494DB4C825EFAD6B00EB030F /* GameView.swift in Sources */,
 				494DB4B825EF85BC00EB030F /* lanternRiddlesApp.swift in Sources */,
+				494DB4CB25EFAFAE00EB030F /* Riddle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
