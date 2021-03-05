@@ -10,4 +10,5 @@ import Foundation
 struct Riddle {
     var question : String
     var ans : String
+    var choice : [String]
 }
